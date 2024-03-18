@@ -6,23 +6,23 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Tookhy.com",
+    template: "%s | Tookhy.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  // description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
-    title: "chronark.com",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
-    images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    title: "Tookhy.com",
+    // description:
+    //   "Co-founder of unkey.dev and founder of planetfall.io",
+    // url: "https://chronark.com",
+    // siteName: "chronark.com",
+    // images: [
+    //   {
+    //     url: "https://chronark.com/og.png",
+    //     width: 1920,
+    //     height: 1080,
+    //   },
+    // ],
     locale: "en-US",
     type: "website",
   },
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Tookhy",
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/T.png",
   },
 };
 const inter = Inter({
