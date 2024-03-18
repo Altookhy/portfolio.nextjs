@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Instagram } from "lucide-react";
+import { Github, Mail, Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -22,6 +22,12 @@ const socials = [
 		href: "https://github.com/Altookhy",
 		label: "Github",
 		handle: "Altookhy",
+	},
+	{
+		icon: <Linkedin size={20} />,
+		href: "www.linkedin.com/in/osama-eltokhy-0734791bb",
+		label: "Linkedin",
+		handle: "Osama eltokhy",
 	},
 ];
 
