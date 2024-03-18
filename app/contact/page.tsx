@@ -5,12 +5,12 @@ import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
-	{
-		icon: <Instagram size={20} />,
-		href: "https://instagram.com/osamatookhy",
-		label: "Instagram",
-		handle: "@osamatookhy",
-	},
+	// {
+	// 	icon: <Instagram size={20} />,
+	// 	href: "https://instagram.com/osamatookhy",
+	// 	label: "Instagram",
+	// 	handle: "@osamatookhy",
+	// },
 	{
 		icon: <Mail size={20} />,
 		href: "osamaaltookhy@gmail.com",
