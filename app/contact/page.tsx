@@ -25,7 +25,7 @@ const socials = [
 	},
 	{
 		icon: <Linkedin size={20} />,
-		href: "www.linkedin.com/in/osama-eltokhy-0734791bb",
+		href: "https://www.linkedin.com/in/osama-eltokhy-0734791bb/",
 		label: "Linkedin",
 		handle: "Osama eltokhy",
 	},
