@@ -1,8 +1,5 @@
 <div align="center">
-    <a href="https://chronark.com"><h1 align="center">chronark.com</h1></a>
-
-My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=chronark.com), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
-
+    <a href="https://Tookhy.com"><h1 align="center">Tookhy.com</h1></a>
 </div>
 
 <br/>
@@ -14,8 +11,8 @@ My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](h
 
 
 ```sh-session
-git clone https://github.com/chronark/chronark.com.git
-cd chronark.com
+git clone https://github.com/Altookhy/portfolio.nextjs.git
+cd Tookhy.com
 ```
 
 
