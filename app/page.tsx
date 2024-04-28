@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
 
+
 const navigation = [
   // { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
@@ -9,7 +10,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-scroll bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
@@ -31,21 +32,23 @@ export default function Home() {
       <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         Tookhy
       </h1>
+      
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      {/* <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
-          I'm building{" "}
-          <Link
-            target="_blank"
-            href="https://unkey.dev"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            unkey.dev
-          </Link> to solve API authentication and authorization for developers.
-        </h2> */}
-      {/* </div> */}
+      <div className="my-16 text-center animate-fade-in">
+        <div className="bg-white rounded-lg shadow-lg max-w-md mx-auto">
+          <div className="flex items-center justify-center px-6 py-4 border-b border-gray-200">
+            <h2 className="text-gray-900 text-lg font-semibold">Card Title</h2>
+          </div>
+          <div className="flex flex-col items-center justify-center px-6 py-4">
+            <p className="text-gray-700 text-base">
+              This is a sample card content. You can customize it as per your requirements.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 
+  
 }
