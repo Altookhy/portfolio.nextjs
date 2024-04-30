@@ -10,7 +10,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
@@ -36,16 +36,9 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <div className="bg-white rounded-lg shadow-lg max-w-md mx-auto">
-          <div className="flex items-center justify-center px-6 py-4 border-b border-gray-200">
-            <h2 className="text-gray-900 text-lg font-semibold">Card Title</h2>
-          </div>
-          <div className="flex flex-col items-center justify-center px-6 py-4">
-            <p className="text-gray-700 text-base">
-              This is a sample card content. You can customize it as per your requirements.
-            </p>
-          </div>
-        </div>
+        <h2>
+          This website is currently under construction, please contact me on email @osamaaltookhy@gmail.com, Thank you for visiting and have a great day ahead!
+        </h2>
       </div>
     </div>
   );
