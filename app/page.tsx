@@ -47,7 +47,7 @@ export default function Home() {
                 </p> */}
                 <p className="text-gray-400 dark:text-gray-300 font-light text-md">
                   Please be informed that this site is currently unavailable and under development. Please contact me on my email address @osamaaltookhy@gmail.com.
-                  Thank you and have a great day!
+                  Thank you and have a great day!.
                 </p>
               </div>
             </a>
