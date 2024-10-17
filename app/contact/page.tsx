@@ -1,16 +1,12 @@
-"use client";
-import { Github, Mail, Instagram, Linkedin } from "lucide-react";
+import { Github, Mail, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+// import { FocusCards } from "../components/focus-cards";
+
+
 
 const socials = [
-	// {
-	// 	icon: <Instagram size={20} />,
-	// 	href: "https://instagram.com/osamatookhy",
-	// 	label: "Instagram",
-	// 	handle: "@osamatookhy",
-	// },
 	{
 		icon: <Mail size={20} />,
 		href: "mailto:osamaaltookhy@gmail.com",

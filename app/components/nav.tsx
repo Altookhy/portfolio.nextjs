@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
-export const Navigation: React.FC = () => {
+export const 	Navigation: React.FC = () => {
 	const ref = useRef<HTMLElement>(null);
 	const [isIntersecting, setIntersecting] = useState(true);
 
@@ -32,7 +32,7 @@ export const Navigation: React.FC = () => {
 							href="/projects"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Projects
+							Progress
 						</Link>
 						<Link
 							href="/contact"
@@ -40,6 +40,12 @@ export const Navigation: React.FC = () => {
 						>
 							Contact
 						</Link>
+						{/* <Link
+							href="/contact"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							Contact
+						</Link> */}
 					</div>
 
 					<Link

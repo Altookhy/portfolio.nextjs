@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "C:\\Users\\User\\Desktop\\Main Portfolio\\portfolio\\tailwind.config.js",
+    "css": "C:\\Users\\User\\Desktop\\Main Portfolio\\portfolio\\portfolio.nextjs\\app\\global.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "examples": "@/components/examples",
+    "blocks": "@/components/blocks"
+  }
+}

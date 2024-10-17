@@ -3,26 +3,15 @@ import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: {
     default: "Tookhy.com",
     template: "%s | Tookhy.com",
   },
-  // description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
     title: "Tookhy.com",
-    // description:
-    //   "Co-founder of unkey.dev and founder of planetfall.io",
-    // url: "https://chronark.com",
-    // siteName: "chronark.com",
-    // images: [
-    //   {
-    //     url: "https://chronark.com/og.png",
-    //     width: 1920,
-    //     height: 1080,
-    //   },
-    // ],
     locale: "en-US",
     type: "website",
   },
@@ -70,6 +59,7 @@ export default function RootLayout({
           }`}
       >
         {children}
+        <VercelAnalytics />
       </body>
     </html>
   );
