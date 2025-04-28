@@ -6,11 +6,22 @@ import Image from "next/image";
 const Profile = () => {
   const data = [
     {
+      title: "2025",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            <strong style={{ fontSize: '1.8em' }}>Career Switch - AAU, Klagenfurt </strong><br /><br />
+            <strong>Master's degree in Artificial Intelligence and Cybersecurity<br />2025 - Present</strong><br />
+          </p>
+        </div>
+      ),
+    },
+    {
       title: "2024",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            <strong style={{ fontSize: '1.8em' }}>Completion of BACHELOR - UTM, JB</strong><br /><br />
+            <strong style={{ fontSize: '1.8em' }}>BACHELOR DEGREE - UTM, JB</strong><br /><br />
             <strong>BACHELOR OF SOFTWARE ENGINEERING<br />2020 - 2024</strong><br />
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
